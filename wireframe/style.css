@@ -1,0 +1,113 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+    background-color: rgba(245, 247, 248, 0.486);
+}
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav > a {
+    padding: 5px 12px;
+    text-decoration: none;
+    color: darkgray;
+    
+}
+
+#but1 {
+    background-color: rgb(59, 59, 63);
+    border: none;
+    padding: 5px 10px;
+    float: right;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#logo {
+    float: left;
+}
+
+#pic {
+    float: right;
+}
+
+#tagH2 {
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(59, 59, 63);
+}
+
+
+
+#tagline {
+    padding-left: 45px;
+    padding-bottom: 70px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#tagSearch {
+    background-color: rgb(59, 59, 63);
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tagBox {
+    border: none;
+    background-color: rgba(211, 211, 211, 0.26);
+    height: 27px;
+}
+
+#fourthSections {
+    padding-top: 95px;
+}
+
+.fourSec {
+    float: left;
+    width: 25%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media all and (max-width: 412px) {
+    header nav, #fourthSections section {
+        width: 100%;
+    }
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
