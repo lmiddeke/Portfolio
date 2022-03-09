@@ -1,0 +1,269 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+#nav1 {
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-right: 47px;
+  padding: 8px 55px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #f0ffff8a;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 10px 0 10px
+}
+
+.fas {
+  font-size: 1.2rem;
+}
+
+#phoneIcon {
+  font-size: 25px;
+}
+
+#first {
+    background: center rgb(96, 96, 104) fixed no-repeat url("Images/restaurant.jpg") ;
+    opacity: 0.9;
+    height: 613px;
+    background-size: cover;
+}
+
+h1, form, img {
+  clear: both;
+}
+
+h1 {
+  padding-top: 43px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  margin-right: 47px;
+  margin-left: 47px;
+  font-size: 70px;
+  font-weight: 600;
+  color: #0c1f45;
+  background-color: #fbf6e075;
+  /* border-radius: 10px; */
+}
+
+#divH1 {
+  height: auto;
+  width: auto;
+}
+
+form {
+  padding: 0 0 25px 47px;
+}
+
+input {
+  width: 23%;
+  border-radius: 5px;
+  height: 35px;
+  border: none;
+}
+
+.fab {
+  width: 63px;
+  padding-left: 48px;
+  color:#e0e9fb ;
+  font-size: 21px;
+}
+
+button {
+  border-radius: 10px ;
+  background: wheat;
+  color: #0c1f45;
+  border: none;
+  padding:10px 24px ;
+  cursor: pointer;
+}
+
+
+.firstImg {
+  padding-left: 47px;
+}
+
+#second {
+  background:70% 75% fixed no-repeat url("Images/sec2.jpg") rgb(219, 196, 200);
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.7;
+  height: 682px;
+  padding-left: 140px;
+  padding-right: 97px;
+  padding-top: 46px;
+}
+
+#secText {
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  color: white;
+  padding: 18px 26px;
+
+}
+
+#nav2 {
+  padding-bottom: 20px;
+}
+
+#third {
+  background: no-repeat bottom fixed url("Images/kim-cruickshanks-LSph4t5At1k-unsplash.jpg") ;
+  opacity: 0.7;
+  height: 720px;
+  clear: both;
+  padding-left: 30px;
+  padding-top: 46px;
+}
+
+#thirdImgSec {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: auto;
+  height: 336px;
+  margin-top: 72px;
+  margin-left: 10px;
+  margin-right: 24px;
+}
+
+.thirdImg {
+  flex-grow: 1;
+  padding: 5px;
+  width: 100px;
+  height: 330px;
+
+}
+
+.thirdImIm {
+  width: 100%;
+  height: auto;
+  border-radius: 95px;
+}
+
+.center {
+  text-align: center;
+  display: block;
+}
+
+.sizeH2 {
+  font-size: 2.7rem;
+}
+
+.third2Img {
+  
+  width: 150px;
+}
+
+
+#fourth {
+  text-align: center;
+  padding-top: 30px;
+  width: auto;
+  height: 500px;
+  background:70% 75% fixed no-repeat url("Images/bernard-hermant-1nDW7BjBj1s-unsplash.jpg") rgb(219, 196, 200);
+  opacity: 0.76;
+}
+
+#fourthSec {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#monday {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#friday {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+#fourthImg {
+  border-radius: 7px;
+  padding-top: 30px;
+
+}
+
+#fourthH2 {
+  background-color: #f0ffff8a;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.fa-door-open {
+  font-size: 37px;
+  padding-top: 24px;
+}
+
+#person {
+  border-radius: 80px;
+  height: 150px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media all and (max-width: 850px) {
+  #thirdImgSec {
+      flex-direction: column;
+  }
+}
+
+
+@media all and (max-width: 850px){
+  #secText {
+    float: left;
+    background-color: lightgray;
+    color: #0c1f45;
+  }
+}
+
+@media all and (max-width: 850px){
+  #second {
+    height: 1180px;
+  }
+}
