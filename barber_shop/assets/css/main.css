@@ -4022,7 +4022,7 @@ input, select, textarea {
 
 
 	.services {
-		background:no-repeat top url('../../images/andrea-donato-MNu0n-3BIKs-unsplash\ \(2\).jpg');
+		background:no-repeat top url('../../../images/andrea-donato-MNu0n-3BIKs-unsplash\ \(2\).jpg');
 	}
 
 	.h2Services {
@@ -4077,7 +4077,7 @@ input, select, textarea {
 	  }
 
 	  .contact {
-		  background: url('/images/arthur-humeau-pu20JkUx--A-unsplash.jpg');
+		  background: url('/./../images/arthur-humeau-pu20JkUx--A-unsplash.jpg');
 		  background-attachment: fixed;
 		  background-position: center center;
 		  background-repeat: no-repeat;
